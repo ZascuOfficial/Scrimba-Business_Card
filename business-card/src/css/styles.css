@@ -1,0 +1,23 @@
+:root {
+  --light-orange: #F3BF99;
+
+  --white: #fff;
+
+  --light-gray: #E5E5E5;
+  --intermediate-gray: #DCDCDC;
+  --mid-gray: #23252C;
+  --dark-gray: #1A1B21;
+
+  --black: #161619;
+}
+
+* {
+  margin: 0;
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--mid-gray);
+  color: var(--white);
+}
