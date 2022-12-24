@@ -16,7 +16,12 @@
   font-family: inherit;
 }
 
+html, body { height: 100%; }
+
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--mid-gray);
   color: var(--white);
@@ -29,7 +34,7 @@ body {
 
 .container {
   width: 370px;
-  margin: 11px auto;
+  margin: 0px auto;
   background-color: var(--dark-gray);
   border: 2px solid #bbb;
   border-radius: 15px;
