@@ -21,3 +21,70 @@ body {
   background-color: var(--mid-gray);
   color: var(--white);
 }
+
+.highlighted {
+  margin-inline: 5px;
+  color: var(--light-orange);
+}
+
+.container {
+  width: 370px;
+  margin: 11px auto;
+  background-color: var(--dark-gray);
+  border: 2px solid #bbb;
+  border-radius: 15px;
+}
+
+.profile-picture {
+  width: 100%;
+  background-color: var(--mid-gray);
+  border-radius: 15px 15px 0 0;
+}
+
+#info {
+  padding: 20px 35px 25px 35px;
+}
+
+.info--details {
+  text-align: center;
+}
+
+.info--name {
+  margin-bottom: 7px;
+  font-size: 25px;
+}
+
+.info--current-profession {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--light-orange);
+}
+
+.info--website-link {
+  display: block;
+  font-size: 12px;
+  color: var(--light-gray);
+}
+
+#about,
+#interests {
+  margin-top: 20px;
+}
+
+.about--subtitle,
+.interests--subtitle {
+  margin-bottom: 7px;
+}
+
+.about--description,
+.interests--description {
+  color: var(--intermediate-gray);
+}
+
+#footer {
+  padding: 20px 50px;
+  text-align: center;
+  background-color: var(--black);
+  border-radius: 0 0 15px 15px;
+}
